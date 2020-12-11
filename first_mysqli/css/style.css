@@ -1,0 +1,15 @@
+input:required:valid {
+	border: 1px dashed green;
+}
+
+input:required:invalid {
+	border: 1px dashed red;
+}
+
+.images {
+	width: 40%;
+}
+
+.mylink {
+	text-decoration: none !important;
+}

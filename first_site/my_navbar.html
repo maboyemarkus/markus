@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<style>
+	ul {
+		position: fixed;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		background-color: #333;
+		list-style: none;
+		overflow: hidden;
+		z-index: 99;
+	}
+	
+	li {
+		float: left;
+		border-right: 1px solid #bbb;
+	}
+	
+	li a {
+		display: block;
+		text-align: center;
+		padding: 14px 15px;
+		color: white !important;
+	}
+	
+	li a:hover {
+		background-color: #111;
+		text-decoration: none;
+	}
+	
+	li:last-child {
+		border-right: none,
+	}
+</style>
+
+<ul>
+	<li> <a href="#one"> Page 1 </a></li>
+	<li> <a href="#two"> Page 2 </a></li>
+	<li> <a href="#three"> Page 3 </a></li>
+	<li> <a href="#four"> Page 4 </a></li>
+</ul>

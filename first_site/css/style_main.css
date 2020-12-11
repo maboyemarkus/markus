@@ -1,0 +1,74 @@
+:root {
+	--wform: 25%;
+}
+
+body {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+#one {
+	width: calc(100% - var(--wform));
+}
+
+section {
+	padding: 1vw 1vw 0vw 0vw;
+}
+
+section p {
+	padding-top: 2vw;
+}
+
+.my_form {
+	position: -webkit-sticky;
+	position: sticky;
+	float: right;
+	top: 2vw;
+	width: var(--wform);
+
+	background-color: lightgrey;
+	border-radius: 10px;
+
+	margin-top: 1vw;
+}
+
+.my_carousel {
+	height: 45vw;
+}
+
+p img {
+	padding: 2%;
+	width: 250px !important;
+}
+
+p {
+	overflow: auto;
+}
+
+.fright {
+	float: right;
+}
+
+.fleft {
+	float: left;
+}
+
+#zero {
+	margin-top: 3vw;
+}
+
+#zero p {
+	padding: 1%;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: cyan;
+}
+
+button a {
+	text-decoration: none !important;
+	color: black;
+}
+
+button a:hover {
+	color: black;
+}
